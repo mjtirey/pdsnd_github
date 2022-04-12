@@ -7,7 +7,7 @@
 bikeshare_2
 
 ### Description
-bikeshare_2 allows the user to interactive navigate the bikesharing data from New York City, Chicago, and Washington.
+bikeshare_2 allows the user to interactive navigate the bikesharing data from New York City, Chicago, and Washington. Interaction includes viewing summary information as well as accessing raw data.
 
 ### Files used
 bikeshare_2.py
