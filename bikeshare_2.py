@@ -28,7 +28,7 @@ def get_filters():
 
 # get user input for month (all, january, february, ... , june)
     while True:
-        month = input("Enter Month: ").lower()
+        month = input("Enter month or all: ").lower()
         if month not in ["all", "january", "february", "march", "april", "may", "june"]:
             print("Please enter all, january, february, march, april, may, or june with correct spelling.")
             continue
@@ -36,7 +36,7 @@ def get_filters():
             break
 # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input("Enter Day of Week: ").lower()
+        day = input("Enter day of week or all: ").lower()
         if day not in ["all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]:
             print("Please enter all, monday, tuesday, wednesday, thursday, friday, saturday, or sunday with correct spelling.")
             continue
